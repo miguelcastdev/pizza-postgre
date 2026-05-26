@@ -21,7 +21,7 @@ import com.example.base_postpizza.model.Pizzeria;
 import com.example.base_postpizza.service.PizzaService;
 
 @RestController
-@RequestMapping("pizzeria")
+@RequestMapping("pizzas")
 @CrossOrigin(origins = "*", methods= {RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE, RequestMethod.PUT})
 public class PizzaController {
 
